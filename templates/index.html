@@ -1,0 +1,24 @@
+<head>
+    <title> template testing </title>
+
+</head>
+
+<body>
+    {% comment %} HomePage <br> 
+    <a href='http://www.google.com' target='blank' > Google  </a> 
+    <br>
+    <a href='/removepunc'>  removepunc </a> <br>
+    <a href='/capfirst'>  capfirst </a> <br> 
+    <a href='/newlineremove'>  newlineremove </a> <br>
+    <a href='/spaceremove'>  spaceremove </a> <br>
+    <a href='/charcount'>  charcount </a> <br>
+    <h1> variable testing </h1><br>
+    <h2>My name is {{name}} and i live in {{place}} </h2> {% endcomment %}
+    <h1>Text Analyzer </h1>
+    <form action='/removepunc' method='get'>
+        <textarea name=text style="width: 744px; height: 362px;"></textarea> <br> <br>
+        <button type='submit'> Analyze Text</button>
+    </form>
+
+
+</body>
