@@ -21,9 +21,10 @@ urlpatterns = [
     path('',views.index,name='index'),
     path('about',views.about,name='about'),
     path('file',views.file,name='file'),
-    path('removepunc',views.removepunc,name='removepunc'),
-    path('capfirst',views.capfirst,name='capfirst'),
-    path('newlineremove',views.newlineremove,name='newlineremove'),
-    path('spaceremove',views.spaceremove,name='spaceremove'),
-    path('charcount',views.charcount,name='charcount')
+    # path('removepunc',views.removepunc,name='removepunc'),
+    # path('capfirst',views.capfirst,name='capfirst'),
+    # path('newlineremove',views.newlineremove,name='newlineremove'),
+    # path('spaceremove',views.spaceremove,name='spaceremove'),
+    # path('charcount',views.charcount,name='charcount')
+    path('analyze',views.analyze,name='analyze')
 ]

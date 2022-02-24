@@ -1,8 +1,7 @@
 <head>
-    <title> template testing </title>
+    <title> TextUtils </title>
 
 </head>
-
 <body>
     {% comment %} HomePage <br> 
     <a href='http://www.google.com' target='blank' > Google  </a> 
@@ -15,10 +14,16 @@
     <h1> variable testing </h1><br>
     <h2>My name is {{name}} and i live in {{place}} </h2> {% endcomment %}
     <h1>Text Analyzer </h1>
-    <form action='/removepunc' method='get'>
+    <form action='/analyze' method='get'>
         <textarea name=text style="width: 744px; height: 362px;"></textarea> <br> <br>
+        <input type="checkbox" name="removepunc"> Remove Punctuation </br>
+        <input type="checkbox" name="capital"> CAPITALIZE TEXT </br>
+        <input type="checkbox" name="newlineremove"> Remove New Line </br>
+        <input type="checkbox" name="removespace"> Remove Extra space </br>
+        <input type="checkbox" name="charcount"> Character Count </br>
         <button type='submit'> Analyze Text</button>
     </form>
 
 
 </body>
+
